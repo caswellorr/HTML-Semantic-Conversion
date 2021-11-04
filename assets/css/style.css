@@ -15,6 +15,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+
 }
 
 h1 {
@@ -52,13 +53,12 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* matched with changed html and added img to alter the sixe of the photo  */
+picture img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    
 }
 
 .float-left {
@@ -137,7 +137,8 @@ main {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+main section {
+    display:flex;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -146,7 +147,7 @@ main {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,34 +162,34 @@ main {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff; */
 }
 
-.search-engine-optimization img {
+main section img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
-    max-height: 200px;
+    max-height: 200px; */
 }
 
-.search-engine-optimization h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 36px; */
 }
 
 /* changed from class=footer to match html footer element*/
