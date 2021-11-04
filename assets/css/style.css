@@ -8,40 +8,37 @@ body {
     background-color: #d9dcd6;
 }
 
-/* The consolidated HTML helped to clean up the CSS below. There were a lot of sub "classes" under the header div that looked messy and was confusing at first to tell what was what. */
+/* Updated css for the header to match converted html semantics */
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    
-  
 }
 
 header h1 {
-    display:inline;
+    display: inline-block;
     font-size: 48px;
-
 }
 
-.seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 header nav {
     padding-top: 15px;
     margin-right: 20px;
+    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-   
 }
 
-header ul {
+header nav ul {
     list-style-type: none;
 }
 
-header li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -56,7 +53,7 @@ p {
     font-size: 16px;
 }
 
-/* matched with changed html and added img to alter the sixe of the photo  */
+/* matched with converted html semantics and added img to alter the size of the photo  */
 picture img {
     height: 800px;
     width: 100%;
@@ -64,7 +61,7 @@ picture img {
     
 }
 
-/*changed to main from class=content*/
+/* matched css for <main> with converted html semantics */
 main {
     width: 75%;
     display: inline-block;
@@ -80,9 +77,6 @@ main section {
     color: #ffffff;
 }
 
-
-/* consolidated css for main section*/
-
 main img {
 
     max-height: 200px;
@@ -95,6 +89,8 @@ main h2 {
     font-size: 36px;
 
 }
+
+/* Secondary secion - why is this not responding like the main section or header? */
 
 article {
     margin-right: 20px;
