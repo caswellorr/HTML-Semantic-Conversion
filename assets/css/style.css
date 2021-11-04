@@ -92,7 +92,7 @@ main h2 {
 
 /* Secondary secion - why is this not responding like the main section or header? */
 
-article {
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -103,43 +103,43 @@ article {
     background-color: #2589bd;
 }
 
-section {
+.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* .benefit-brand {
+.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff; */
+    color: #ffffff;
 }
 
-h3 {
+.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* .benefit-brand h3 {
+.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
     margin-bottom: 10px;
-    text-align: center; */
+    text-align: center;
 }
 
-img {
+.benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* .benefit-brand img {
+.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -149,8 +149,9 @@ img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-} */
+}
 
+/* for the images in the main section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -162,12 +163,13 @@ img {
 }
 
 
-/* changed from class=footer to match html footer element*/
+/* changed from class to match converted html semantics */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+
 }
 
 footer h2 {
