@@ -90,9 +90,9 @@ main h2 {
 
 }
 
-/* Secondary secion - why is this not responding like the main section or header? */
+/* matched with html converted semantics - didn't respond well at first */
 
-.benefits {
+article {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -103,12 +103,12 @@ main h2 {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+article section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -116,14 +116,14 @@ main h2 {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+article section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/*  .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -131,15 +131,15 @@ main h2 {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+article section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -149,7 +149,7 @@ main h2 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
 /* for the images in the main section */
 .float-left {
